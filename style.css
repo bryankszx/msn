@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --imagem1: url('./img/msn1.jpg');
+    --imagem2: url('./img/msn2.jpg');
+    --imagem3: url('./img/msn3.jpg');
+    --imagem4: url('./img/msn4.jpg');
+    --imagem5: url('./img/msn5.jpg');
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: var(--imagem1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#trocarImagem{
+    padding: 16px 32px;
+    font-size: 24px;
+    cursor: pointer;
+}
